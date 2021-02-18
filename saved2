@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Course: UCs Optativas UCOP1, UCOP2 e UCOP3 2020/21</title>
+    <link rel="shortcut icon" href="https://moodle.dsi.uminho.pt/theme/image.php/boost/theme/1613596299/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Course: UCs Optativas UCOP1, UCOP2 e UCOP3 2020/21" />
+<link rel="stylesheet" type="text/css" href="https://moodle.dsi.uminho.pt/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.dsi.uminho.pt/theme/styles.php/boost/1613596299/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.dsi.uminho.pt","sesskey":"jaU74d1DpH","themerev":"1613596299","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1613596299","admin":"admin","svgicons":true,"usertimezone":"Europe\/Lisbon","contextid":223760};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.dsi.uminho.pt\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.dsi.uminho.pt\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.dsi.uminho.pt\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.dsi.uminho.pt\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.dsi.uminho.pt\/theme\/yui_combo.php?m\/1613596299\/","combine":true,"comboBase":"https:\/\/moodle.dsi.uminho.pt\/theme\/yui_combo.php?","ext":false,"root":"m\/1613596299\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.dsi.uminho.pt\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.dsi.uminho.pt\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1613596299\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.dsi.uminho.pt\/lib\/javascript.php\/1613596299\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.dsi.uminho.pt\/lib\/javascript.php\/1613596299\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-course-view-weeks" class="format-weeks  path-course path-course-view dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-dsi-uminho-pt pagelayout-course course-834 context-223760 category-153 ">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="https://moodle.dsi.uminho.pt/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <div data-region="drawer-toggle">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true" title="" aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="https://moodle.dsi.uminho.pt" class="navbar-brand 
+                    hidden-sm-down
+                    ">
+                <span class="site-name hidden-sm-down">Moodle no DSI</span>
+            </a>
+    
+            <!-- user_menu -->
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-1" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext">Tiago Alves (A83137)</span><span class="avatars"><span class="avatar current"><img src="https://moodle.dsi.uminho.pt/pluginfile.php/181535/user/icon/boost/f2?rev=1" alt="Picture of Tiago Alves (A83137)" title="Picture of Tiago Alves (A83137)" class="userpicture" width="35" height="35" role="presentation" /></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="https://moodle.dsi.uminho.pt/my/" class="dropdown-item menu-action" role="menuitem"data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i><span class="menu-action-text" id="actionmenuaction-1">Dashboard</span></a><div class="dropdown-divider"></div><a href="https://moodle.dsi.uminho.pt/user/profile.php?id=36496" class="dropdown-item menu-action" role="menuitem"data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-2">Profile</span></a><a href="https://moodle.dsi.uminho.pt/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem"data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-3">Grades</span></a><a href="https://moodle.dsi.uminho.pt/message/index.php" class="dropdown-item menu-action" role="menuitem"data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i><span class="menu-action-text" id="actionmenuaction-4">Messages</span></a><a href="https://moodle.dsi.uminho.pt/user/preferences.php" class="dropdown-item menu-action" role="menuitem"data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-5">Preferences</span></a><div class="dropdown-divider"></div><a href="https://moodle.dsi.uminho.pt/login/logout.php?sesskey=jaU74d1DpH" class="dropdown-item menu-action" role="menuitem"data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-6">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+    
+            <!-- navbar_plugin_output -->
+            <div class="popover-region collapsed popover-region-messages"
+    id="nav-message-popover-container" data-userid="36496"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-602dba7ed7094602dba7ed55a410"
+        aria-haspopup="true"
+        aria-label="Show message window with no new messages"
+        tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-602dba7ed7094602dba7ed55a410"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+                <a href="https://moodle.dsi.uminho.pt/message/index.php?contactsfirst=1">New message
+                </a>
+        </div>
+        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    role="button"
+                    title="Mark all as read"
+                    data-action="mark-all-read">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://moodle.dsi.uminho.pt/message/edit.php?id=36496"
+                    title="Message preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Message preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle.dsi.uminho.pt/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="36496"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-602dba7ed7de9602dba7ed55a411"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-602dba7ed7de9602dba7ed55a411"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    title="Mark all as read"
+                    data-action="mark-all-read"
+                    role="button">
+                    <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/y/loading" /></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Mark all as read
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://moodle.dsi.uminho.pt/message/notificationpreferences.php?userid=36496"
+                    title="Notification preferences">
+                    <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Notification preferences
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Loading" title="Loading" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://moodle.dsi.uminho.pt/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+            
+            </span>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                <div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-602dba7ed898c602dba7ed55a414" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        English ‎(en)‎
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-602dba7ed898c602dba7ed55a414">
+                <a class="dropdown-item" href="https://moodle.dsi.uminho.pt/course/view.php?id=834&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" href="https://moodle.dsi.uminho.pt/course/view.php?id=834&amp;lang=pt" title="Português - Portugal ‎(pt)‎">Português - Portugal ‎(pt)‎</a>
+    </div>
+</div>
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"><div class="action-menu moodle-actionmenu" id="action-menu-2" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-2-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-2" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-cog fa-fw " aria-hidden="true" title="" aria-label=""></i></a>
+        <div class="dropdown-menu dropdown-menu-right menu align-tr-br" id="action-menu-2-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-2" role="menu" data-align="tr-br">
+            <div class="dropdown-item">
+
+    <a href="https://moodle.dsi.uminho.pt/enrol/self/unenrolself.php?enrolid=1718" id="action_link602dba7ed55a415" class=""  role="menuitem" ><i class="icon fa fa-user fa-fw " aria-hidden="true" title="" aria-label=""></i>Unenrol me from UCOPs 1, 2 e 3 2020/21</a>
+
+
+
+</div>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-headings"><h1>UCs Optativas UCOP1, UCOP2 e UCOP3 2020/21</h1></div></div></div><div class="clearfix w-100 pull-xs-left" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://moodle.dsi.uminho.pt/" >Home</a></li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item"><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834" title="UCs Optativas UCOP1, UCOP2 e UCOP3 2020/21">UCOPs 1, 2 e 3 2020/21</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button pull-xs-right"></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <section id="region-main" >
+                    <div class="card card-block">
+                    <span class="notifications" id="user-notifications"><div class="alert alert-danger alert-block fade in "  role="alert">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Sorry, this activity is currently hidden
+</div></span>
+                    <div role="main"><span id="maincontent"></span><div class="course-content"><h2 class="accesshide">Weekly outline</h2><ul class="weeks"><li id="section-0" class="section main clearfix" role="region" aria-label="General"><span class="hidden sectionname">General</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/spacer" /></div><div class="content"><h3 class="sectionname accesshide"><span><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-0">General</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity forum modtype_forum " id="module-33806"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/forum/view.php?id=33806"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/forum/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Avisos<span class="accesshide " > Forum</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow">Nota Importante: Ler todos os avisos desta secção. A direcção de curso considera que todos os avisos aqui publicados são do conhecimento dos alunos.</div></div></div></div></div></div></li><li class="activity forum modtype_forum " id="module-33815"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/forum/view.php?id=33815"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/forum/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Dúvidas<span class="accesshide " > Forum</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Se não encontrar uma resposta de que necessite nas instruções nem nas FAQs, submeta-a neste local.</p></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-33807"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><div><strong>Calendário:</strong></div>
+<div style="margin-left: 30px;">• Escolha: até 12-fev no Moodle</div>
+<div style="margin-left: 30px;">• Publicação resultados: 16-fev</div></div></div></div></div></div></div></li><li class="activity page modtype_page " id="module-33808"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/page/view.php?id=33808"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/page/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">FAQs<span class="accesshide " > Page</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33966"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33966"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 1º ano do MiEGSI diurno<span class="accesshide " > File</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33972"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33972"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 2º ano do MiEGSI diurno v.4<span class="accesshide " > File</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33971"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33971"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 3º ano do MiEGSI diurno v.4<span class="accesshide " > File</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33968"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33968"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 4º ano do MiEGSI diurno v.4<span class="accesshide " > File</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33967"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33967"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 3º ano do MiEGSI pós laboral<span class="accesshide " > File</span></span></a></div></div></div></div></li><li class="activity resource modtype_resource " id="module-33969"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33969"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Horário 4º ano do MiEGSI pós laboral<span class="accesshide " > File</span></span></a></div></div></div></div></li></ul></div></li><li id="section-1" class="section main clearfix" role="region" aria-label="Informação sobre as UCOPs"><span class="hidden sectionname">Informação sobre as UCOPs</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/spacer" /></div><div class="content"><h3 class="sectionname"><span><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-1">Informação sobre as UCOPs</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-33809"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33809"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Portefólio das UCOPs 1, 2 e 3<span class="accesshide " > File</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><h1><span style="font-size: medium;">Método de Inscrição</span></h1>
+<p>Os alunos irão frequentar UC optativas específicas (cuja descrição detalhada é facultada na secção Descrição das Unidades Curriculares Optativas deste documento), de acordo com as preferências que manifestem e com as vagas existentes. As UC optativas (UCOP) específicas são depois mapeadas para estas duas UC optativas constantes do plano de estudos.</p>
+<p>A indicação das preferências será efetuada junto da Comissão Diretiva do MIEGSI. Para o efeito, será disponibilizado aos alunos via Moodle, um questionário para que estes ordenem por ordem decrescente de preferência as UCs optativas específicas oferecidas neste semestre e indiquem a que UCOPs estão inscritos.</p>
+<p>A lista de UC optativas específicas disponíveis para escolha é constituída pelas UCs a seguir listadas:</p>
+<ul>
+<li>Design de Serviços (DS)<b></b></li>
+<li>Direito e Informação (DI) <sup>(1)(2)(3)(4) </sup></li>
+<li>Engenharia da Segurança de Sistemas de Informação (ESSI)</li>
+<li>Informática Urbana (IU)</li>
+<li>Inovação Aberta Utilizando Tecnologias de Informação (IATI)</li>
+<li>Iniciação à Investigação em TSI (IITSI) <sup>(1)</sup></li>
+<li>Modelação Dinâmica de Sistemas e Organizações  (MDSO)</li>
+<li>Modelação e Geração Automática de Software (MGAS)<b></b></li>
+<li>Tecnologias e Sistemas de Informação no Governo II (TSIG II)<b></b></li>
+<li>Sistemas Adaptativos para a Inteligência do Negócio (SAIN) <sup>(1)</sup></li>
+<li>Tópicos Avançados de Base de Dados (TABD) <sup>(2)</sup></li>
+<li>Tecnologia de Jogos Digitais (TJD)</li>
+<li>Transformação Digital (TD) <sup>(2)</sup></li>
+</ul>
+<p>Na escolha das UCs optativas os alunos deverão atender às impossibilidades de frequência impostas pelo horário.</p>
+<p>O <b>Calendário</b> de Indicação das preferências, Validação dos dados introduzidos pelos alunos, Publicação da distribuição e Abertura da fase de rateio de vagas sobrantes ou entretanto libertadas, decorrerá de acordo com as datas especificadas para cada atividade, no Moodle.</p>
+<p><sup>(1)</sup> Os alunos do terceiro ano do curso diurno deverão ter em particular atenção o facto de que as UCOPs assinaladas com (1), decorrem em paralelo com UCs obrigatórias do terceiro ano. Na realidade são opções que não deveriam estar disponíveis para o 3º ano, mas como temos um elevado número de alunos, há sempre algum que já fez ou não vai fazer este ano uma dessas UCs, de modo que a direção de curso optou por colocar no horário do 3º ano todas as opções do 4º ano. Por esse motivo os alunos <i>normais</i> do terceiro ano, deverão indicar incompatibilidade de horário com essas opções (DI, IITSI e SAIN).</p>
+<p><sup>(2)</sup> Os alunos do terceiro ano do curso pós laboral deverão ter em particular atenção o facto de que as UCOPs assinaladas com (2), decorrem em paralelo com UCs obrigatórias do terceiro ano. Na realidade são opções que não deveriam estar disponíveis para o 3º ano, mas como temos um elevado número de alunos, há sempre algum que já fez ou não vai fazer este ano uma dessas UCs, de modo que a direção de curso optou por colocar no horário do 3º ano todas as opções do 4º ano. Por esse motivo os alunos <i>normais</i> do terceiro ano, deverão indicar incompatibilidade de horário com essas opções (DI, TABD e TD).</p>
+<p><sup>(3)</sup> Os alunos do quarto ano do curso pós laboral deverão ter em particular atenção o facto de que as UCOPs assinaladas com (3), decorrem em paralelo com UCs obrigatórias do quarto ano. Na realidade são opções que não deveriam estar disponíveis para o 4º ano, mas como temos um elevado número de alunos, há sempre algum que já fez ou não vai fazer este ano uma dessas UCs, de modo que a direção de curso optou por colocar no horário do 4º ano todas as opções do 4º ano. Por esse motivo os alunos <i>normais</i> do quarto ano, deverão indicar incompatibilidade de horário com essas opções (DI).</p>
+<p><sup>(4)</sup> DI apenas está disponível nas Opções 1 e 3. Consequentemente, um aluno que só esteja inscrito na Opção 2, deverá indicar incompatibilidade em DI.</p>
+<h1><span style="font-size: medium;">Número de Vagas, Critérios de Admissão e Seriação</span></h1>
+<p>O funcionamento de uma UC optativa específica está dependente da existência de um <b>número mínimo de 12 alunos inscritos à UC.</b></p>
+<p>O <b>número máximo de alunos </b>que frequentará as UC optativas será determinado em função do número de inscrições existentes e dos recursos humanos e físicos disponíveis para a lecionação das mesmas, pelo que só poderá ser determinado após a manifestação de preferências por parte dos alunos.</p>
+<p>O processo de admissão e de seriação que será aplicado terá como critério único a média do aluno à data da seriação.</p>
+<p>Apenas serão consideradas as inscrições efetuadas via moodle.</p></div></div></div></div></div></div></li><li class="activity page modtype_page " id="module-33810"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/page/view.php?id=33810"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/page/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Informação Complementar sobre as UCs<span class="accesshide " > Page</span></span></a></div></div></div></div></li></ul></div></li><li id="section-2" class="section main clearfix" role="region" aria-label="Preferências"><span class="hidden sectionname">Preferências</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/spacer" /></div><div class="content"><h3 class="sectionname"><span><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-2">Preferências</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity questionnaire modtype_questionnaire " id="module-33811"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/questionnaire/view.php?id=33811"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/questionnaire/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Ordem de preferência das UCOPs<span class="accesshide " > Questionnaire</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Selecione as UCOPs por ordem de preferência. Todos os ano há um aluno que coloca as preferências por ordem inversa do indicado -- não queira ser esse aluno :-)</p>
+<p>Leia com atenção as instruções.</p>
+<p>Há dois botões no fim do questionário: "Gravar" e "Submeter". Pode alterar e gravar as suas preferências as vezes que quiser dentro do prazo em que decorre a actividade. No entanto, antes do fim do prazo,<strong> tem de clicar em "Submeter"</strong>. Caso contrário o moodle descarta as suas opções e é o mesmo que não ter respondido.</p>
+<p>Verifique eventuais incompatibilidades no seu horário. A indicação de uma incompatibilidade não garante automaticamente que esta seja aceite pela direção de curso.</p>
+<p>Depois de efetuada a seriação não serão permitidas trocas de UCOPs.</p>
+<p>A quem não responder a este questionário em tempo útil ser-lhe-ão atribuidas as vagas sobrantes, independentemente da sua média, preferências ou incompatibilidades.</p>
+<p>Em caso de dúvidas no preenchimento deste questionário contacte a direção de curso através do email direcaomiegsi@dsi.uminho.pt</p>
+<p>O rigor e a veracidade das respostas que introduzir, são da sua inteira responsabilidade. Respostas erróneas ou injustificadas, serão alvo de penalização no processo de seriação, podendo, no limite, levar à exclusão do mesmo.</p></div></div></div></div></div></div></li></ul></div></li><li id="section-3" class="section main clearfix" role="region" aria-label="Seriação e Distribuição"><span class="hidden sectionname">Seriação e Distribuição</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/spacer" /></div><div class="content"><h3 class="sectionname"><span><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-3">Seriação e Distribuição</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity resource modtype_resource " id="module-33813"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/resource/view.php?id=33813"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/f/pdf-24" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Distribuição provisória das optativas pelos alunos (V4)<span class="accesshide " > File</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Ficheiro com a lista provisória das UCOPs atribuidas a cada aluno. Salvo indicação em contrário, será tomada como definitiva assim que começarem as aulas. Até lá, está aberto período de "reclamaçoes" e a direção de curso reserva-se o direito de alterar a lista se entretanto se fizer prova de algum erro na distribuição.</p></div></div></div></div></div></div></li></ul></div></li><li id="section-4" class="section main clearfix" role="region" aria-label="Rateio de vagas"><span class="hidden sectionname">Rateio de vagas</span><div class="left side"></div><div class="right side"><img class="icon spacer" width="1" height="1" alt="" src="https://moodle.dsi.uminho.pt/theme/image.php/boost/core/1613596299/spacer" /></div><div class="content"><h3 class="sectionname"><span><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-4">Rateio de vagas</a></span></h3><div class="section_availability"></div><div class="summary"></div><ul class="section img-text"><li class="activity choice modtype_choice " id="module-34234"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/choice/view.php?id=34234"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/choice/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Reserva de vagas<span class="accesshide " > Choice</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Está aberto o período de rateio das vagas que sobraram, para os alunos que por qualquer motivo falharam a atividade de registo das preferências.</p>
+<p>Está também disponível para os alunos que por qualquer motivo queiram trocar algumas das opções que lhe foram atribuidas na distribuição inicial.</p>
+<p>O processo de registo de uma vaga em rateio é composto por duas atividades:</p>
+<p>-- A <strong>reserva da vaga</strong>, seleccionando-a nesta atividade</p>
+<p>-- A <strong>confirmação</strong>, através do preenchimento do questionário de confirmação, onde deve ser indicado qual a vaga que reservou e se liberta alguma vaga que tinha anteriormente</p>
+<p>Sem estes dois passos estarem completos, a vaga não é considerada.</p>
+<p>A partir do momento em que o aluno cumpre estes dois passos, a vaga fica-lhe automaticamente atribuida. O aluno que tenha uma vaga registada (reservada e confirmada) no rateio, pode e deve dirigir-se automaticamente às respetivas aulas.</p>
+<p>É possível alterar a escolha enquanto a actividade estiver disponível. No entanto tenham o cuidado de preencher uma nova confirmação que substitua a primeira.</p>
+<p><strong>Erros que podem levar a que a troca seja recusada:</strong></p>
+<p>- Confirmar vagas que não reservou</p>
+<p>- Não confirmar ou confirmar mal, vagas que reservou</p>
+<p>- Registar mais opções do que aquelas a que está inscrito na USGA</p></div></div></div></div></div></div></li><li class="activity questionnaire modtype_questionnaire " id="module-34235"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="activityinstance"><a class="" onclick="" href="https://moodle.dsi.uminho.pt/mod/questionnaire/view.php?id=34235"><img src="https://moodle.dsi.uminho.pt/theme/image.php/boost/questionnaire/1613596299/icon" class="iconlarge activityicon" alt=" " role="presentation" /><span class="instancename">Confirmação de vaga reservada<span class="accesshide " > Questionnaire</span></span></a></div><div class="contentafterlink"><div class="no-overflow"><div class="no-overflow"><p>Preencha este questionário de modo a confirmar uma reserva que fez na atividade "Reserva de Vagas"</p>
+<p>A vagas libertadas serão colocadas em rateio e eventualmente aproveitadas por outros alunos pelo que não será possível recuperá-las se mudar de ideias</p></div></div></div></div></div></div></li></ul></div></li></ul></div></div>
+                    
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action font-weight-bold" href="https://moodle.dsi.uminho.pt/course/view.php?id=834" data-key="coursehome">
+                <div class="m-l-0">
+                        UCOPs 1, 2 e 3 2020/21
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/user/index.php?id=834" data-key="participants">
+                <div class="m-l-0">
+                        Participants
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/badges/view.php?type=2&amp;id=834" data-key="badgesview">
+                <div class="m-l-0">
+                        Badges
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/admin/tool/lp/coursecompetencies.php?courseid=834" data-key="2">
+                <div class="m-l-0">
+                        Competencies
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/grade/report/index.php?id=834" data-key="grades">
+                <div class="m-l-0">
+                        Grades
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-0" data-key="11056">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">General</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-1" data-key="11057">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Informação sobre as UCOPs</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-2" data-key="11058">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Preferências</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-3" data-key="11059">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Seriação e Distribuição</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=834#section-4" data-key="11060">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true" title="" aria-label=""></i>
+                            </span>
+                            <span class="media-body">Rateio de vagas</span>
+                        </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/" data-key="home">
+                <div class="m-l-0">
+                        Home
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/my/" data-key="home">
+                <div class="m-l-0">
+                        Dashboard
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/calendar/view.php?view=month" data-key="calendar">
+                <div class="m-l-0">
+                        Calendar
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/user/files.php" data-key="privatefiles">
+                <div class="m-l-0">
+                        Private files
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses">
+                <div class="m-l-0">
+                    My courses
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action font-weight-bold" href="https://moodle.dsi.uminho.pt/course/view.php?id=834" data-key="834">
+                <div class="m-l-1">
+                        UCOPs 1, 2 e 3 2020/21
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=823" data-key="823">
+                <div class="m-l-1">
+                        ITI20_21
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=783" data-key="783">
+                <div class="m-l-1">
+                        DAI 2019/20
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=780" data-key="780">
+                <div class="m-l-1">
+                        PW1920_1
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=710" data-key="710">
+                <div class="m-l-1">
+                        PW1819
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=671" data-key="671">
+                <div class="m-l-1">
+                        PMS 18-19
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.dsi.uminho.pt/course/view.php?id=574" data-key="574">
+                <div class="m-l-1">
+                        SO1617
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">You are logged in as <a href="https://moodle.dsi.uminho.pt/user/profile.php?id=36496" title="View profile">Tiago Alves (A83137)</a> (<a href="https://moodle.dsi.uminho.pt/login/logout.php?sesskey=jaU74d1DpH">Log out</a>)</div>
+        <div class="homelink"><a href="https://moodle.dsi.uminho.pt/">Home</a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                    <li><a href="#" title="Language">English ‎(en)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                        <li><a href="https://moodle.dsi.uminho.pt/course/view.php?id=834&amp;lang=pt" title="Português - Portugal ‎(pt)‎">Português - Portugal ‎(pt)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.dsi.uminho.pt/lib/requirejs.php/1613596299/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.dsi.uminho.pt/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Play": "Play",
+ "Pause": "Pause",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected"
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select602dba7ed55a413').change(function() {
+        $('#single_select_f602dba7ed55a412').submit();
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select602dba7ed55a417').change(function() {
+        $('#single_select_f602dba7ed55a416').submit();
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(223760, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle.dsi.uminho.pt/lib/javascript.php/1613596299/course/format/weeks/format.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random602dba7ed55a418'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random602dba7ed55a418'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>
